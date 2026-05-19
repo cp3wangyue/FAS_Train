@@ -1,5 +1,6 @@
 # Thesis and private academic materials
 thesis/
+docs/
 
 # Private face samples and raw dataset content
 data/CASIA-SURF/
