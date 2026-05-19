@@ -5,14 +5,16 @@
 ## 项目概述
 
 - 课题名称：面向身份认证的人脸呈现攻击检测系统设计与实现
-- 作者：董博洹
-- 学号：2020103560
-- 学院：网络空间安全学院
-- 专业：网络空间安全
-- 指导教师：吴小天
 - 技术路线：`MobileNetV3-Small + Dual-Head 分类/伪深度分支 + ONNX Runtime + OpenCV + PyQt5`
 - 标签定义：`0 = Attack / Spoof`，`1 = Genuine / Bona Fide`
 - 项目地址：[https://github.com/cp3wangyue/FAS_Train](https://github.com/cp3wangyue/FAS_Train)
+
+## 项目声明
+
+- 项目名称：面向身份认证的人脸呈现攻击检测系统
+- 开发语言：Python
+- 框架与工具：PyTorch、ONNX Runtime、OpenCV、PyQt5
+- 核心技术：人脸呈现攻击检测、轻量级卷积神经网络、伪深度监督、实时摄像头推理、桌面端图形界面
 
 ## 主要功能
 
