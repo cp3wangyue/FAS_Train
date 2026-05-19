@@ -1,0 +1,36 @@
+# Thesis and private academic materials
+thesis/
+
+# Private face samples and raw dataset content
+data/CASIA-SURF/
+data/me/
+data/real_camera_finetune/
+
+# Model weights, deployment artifacts, and generated experiment outputs
+weights/
+deploy/**/*.zip
+deploy/**/weights/
+
+# Runtime screenshots or logs that may contain personal face images
+**/gui_runs/
+**/infer_outputs/
+**/diagnostics/
+**/*.out.log
+**/*.err.log
+
+# Python cache / local env
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local tool outputs / backups
+.ppt_review/
+.ppt_tmp/
+projects/
+weights_backup_*/
+
+# Office temporary files
+~$*.doc
+~$*.docx
